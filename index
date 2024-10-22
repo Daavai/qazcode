@@ -1,1 +1,161 @@
-<h1>Hello world!</h1>
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QazCode - Бағдарламалауды Үйреніңіз</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Навигационная панель -->
+    <nav>
+        <div class="container">
+            <h1>QazCode</h1>
+            <ul>
+                <li><a href="#">Басты бет</a></li>
+                <li><a href="#">Курстар</a></li>
+                <li><a href="#">Жобалар</a></li>
+                <li><a href="#">Форум</a></li>
+                <li><a href="#">Кіру</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Главная секция -->
+    <header>
+        <div class="container">
+            <h2>Бағдарламалауды Үйреніңіз</h2>
+            <p>Курстарымызбен бағдарламалау негіздерін игеріп, өзіңіздің алғашқы жобаңызды жасаңыз!</p>
+            <a href="#courses" class="btn">Курстарды бастау</a>
+        </div>
+    </header>
+
+    <!-- Секция с курсами -->
+    <section id="courses" class="courses-section">
+        <div class="container">
+            <h2>Курстар</h2>
+
+            <div class="course">
+                <h3>HTML және CSS негіздері</h3>
+                <p>HTML мен CSS-тің негізгі түсініктерін үйреніп, қарапайым веб-беттерді жасаңыз.</p>
+                <!-- Пример видео урока -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="course">
+                <h3>JavaScript негіздері</h3>
+                <p>JavaScript-тің негізгі концепцияларын үйреніп, веб-беттерге динамикалық элементтерді қосыңыз.</p>
+                <!-- Пример видео урока -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="course">
+                <h3>Python бағдарламалау</h3>
+                <p>Python тілі арқылы деректерді өңдеуді және автоматтандыруды үйреніңіз.</p>
+                <!-- Пример видео урока -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 QazCode. Барлық құқықтар қорғалған.</p>
+            <ul>
+                <li><a href="#">Құпиялық саясаты</a></li>
+                <li><a href="#">Қолдау</a></li>
+                <li><a href="#">Байланыс</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        header {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        header .btn {
+            background-color: #0a9396;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 2rem 0;
+            background-color: #fff;
+        }
+
+        .courses-section .course {
+            background-color: #e9ecef;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        footer ul li {
+            margin: 0 15px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</body>
+</html>
